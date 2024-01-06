@@ -81,9 +81,7 @@ text-align:left;
   display: flex;
 
 }
-#time{
-justify-self: flex-start;
-}
+
 .container-image {
   justify-content: flex-end;
 }
@@ -91,7 +89,6 @@ justify-self: flex-start;
 .img-con{
   display:flex;
   justify-content: flex-end;
-  
   width: 480PX;
   height: 480PX12.03px;
   top: 430PX;
@@ -104,18 +101,4 @@ justify-self: flex-start;
   justify-content: space-between;
   -ms-flex-align: baseline;
 }
-.container{
-  align-items: baseline;
-}
-.left 
-{
-  display: flex;
-  justify-content: flex-end; 
-}
 
-.right{
-  display: flex;
-  justify-content: flex-start; 
-  width: 13px;
-  height: 13px;
-}
