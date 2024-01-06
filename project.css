@@ -51,6 +51,7 @@ nav{
   font-family:'roboto' ;
   color:#FFFFFF;
   background-color:#3C3A39;
+  width: 480px;
 }
 
 #top
@@ -75,16 +76,46 @@ text-align:left;
 
 .image-container img {
   margin: 10px;
-  
+}
+.container{
+  display: flex;
+
+}
+#time{
+justify-self: flex-start;
+}
+.container-image {
+  justify-content: flex-end;
 }
 
 .img-con{
-  display:grid;
-  width: 406.89px;
-  height: 312.03px;
-  top: 317px;
-  left: 620.1px;
+  display:flex;
+  justify-content: flex-end;
+  
+  width: 480PX;
+  height: 480PX12.03px;
+  top: 430PX;
+  left: 650PX20.1px;
   padding: 0px, 0.53px, 0.32px, 0px;
-  position: left bottom;
+ 
+}
+#flex{
+  display: flex;
+  justify-content: space-between;
+  -ms-flex-align: baseline;
+}
+.container{
+  align-items: baseline;
+}
+.left 
+{
+  display: flex;
+  justify-content: flex-end; 
 }
 
+.right{
+  display: flex;
+  justify-content: flex-start; 
+  width: 13px;
+  height: 13px;
+}
