@@ -6,10 +6,15 @@
       padding: 120px, 24px, 120px, 24px;
     }
 
+    #bh{
+      height:100vh;
+      margin: 0%;
+    }
+    
     header {
       color: #FF6B00;
       width: 327px;
-height : 124px;
+height: 124px;
 font-family: 'crete round'; 
 font-weight: 400;
 font-size: 56px;
@@ -20,7 +25,7 @@ letter-spacing: 0.37px ;
 #top_par{
  color: #FFF5E1;
  width: 327px;
- height : 27px;
+ height: 27px;
  font-family: 'roboto'; 
  font-weight: 700;
  font-size: 24px;
@@ -64,7 +69,7 @@ nav{
 }
 
 .img-con{
-  display:flex;
+  display: flex;
   justify-content: flex-end;
   
   max-width:766px;
